@@ -6,9 +6,9 @@
 </head>
 
 <body>
-    <div ng-app="app" ng-controller="ctrl">
+    <div ng-app="app" ng-controller="ctrl as vm">
 
-        <br> Your message: {{message}}
+        <br> Your message: {{vm.message}}
 
     </div>
     <script src="bundle.js"></script>
