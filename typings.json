@@ -2,8 +2,5 @@
   "globalDependencies": {
     "es6-shim": "registry:dt/es6-shim#0.31.2+20160726072212",
     "jquery": "registry:dt/jquery#1.10.0+20170310222111"
-  },
-  "dependencies": {
-    "angular": "registry:dt/angular#1.6.0+20170321201455"
   }
 }
