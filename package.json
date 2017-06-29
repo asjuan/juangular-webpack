@@ -1,0 +1,23 @@
+{
+  "name": "juangular-webpack",
+  "version": "1.0.0",
+  "description": "Super simple angular 1 and webpack seed project",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "author": "juan alvarez",
+  "license": "MIT",
+  "dependencies": {
+    "@types/angular": "^1.6.24",
+    "angular": "~1.5.10",
+    "jquery": "~3.1.1"
+  },
+  "devDependencies": {
+    "ts-loader": "2.2.1",
+    "typescript": "2.4.1",
+    "typings": "^2.1.1",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.5.0"
+  }
+}
